@@ -59,7 +59,7 @@
             </div>
     
             <div class="imgcontainer">
-                <img src="https://cdnb.artstation.com/p/assets/images/images/029/700/321/large/semrram-gonzalez-dc-logo.jpg?1598376808" alt="">
+                <img src="img/dc-logo-bg.png" alt="">
             </div>
     
         </div>

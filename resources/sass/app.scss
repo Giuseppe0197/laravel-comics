@@ -7,15 +7,16 @@
 /* css per header */
 
 header {
-    height: 500px;
-    background-image: url("https://images4.alphacoders.com/646/thumb-1920-646026.jpg");
+    height: 600px;
+    background-image: url("/img/jumbotron.jpg");
+    background-size: cover;
 
     .containerheader{
         width: 100%;
         background-color: white;
 
         section {
-            height: 150px;
+            height: 120px;
             width: 80%;
             margin: auto;
     
@@ -37,7 +38,7 @@ header {
                     font-weight: bold;
     
                     &:hover {
-                        color: blue;
+                        color: #0282F9;
                         cursor: pointer;
                     }
                 }
@@ -70,7 +71,7 @@ header {
     position: relative;
     left: 100px;
     top: -10px;
-    background-color: blue;
+    background-color: #0282F9;
     color: white;
     padding: 10px 5px;
     border: none;
@@ -82,7 +83,7 @@ header {
 }
 
 .load {
-    background-color: blue;
+    background-color: #0282F9;
     color: white;
     padding: 10px 5px;
     border: none;
@@ -102,13 +103,20 @@ header {
     }
 
     p {
-        color: white;
+        a {
+            color: white;
+            text-decoration: none;
+            
+            &:hover {
+                color: #0282F9;
+            }
+        }
     }
-}
+} 
 
 .container-merchandise {
     width: 100%;
-    background-color: blue;
+    background-color: #0282F9;
 
     .merchandise {
         width: 80%;
@@ -121,15 +129,17 @@ header {
         .buy {
             margin-top: 50px;
             width: calc(100% / 5);
+            line-height: 100px;
     
             img {
-                max-width: 40%;
+                max-width: 30%;
                 vertical-align: middle;
             }
 
             span {
                 color: white;
                 margin-left: 10px;
+                vertical-align: middle;
             }
         }
     }
@@ -138,7 +148,7 @@ header {
 /* css per footer */
 
 .container-footer {
-    background-image: url("https://dk-flow-cdn.clio.me/c8b9f8a06cc55f028bbb9c98eaddc08cf84cbd24/8a830d8980bd210a81af2ff85d71eabba1ba0a48.jpg");
+    background-image: url("/img/footer-bg.jpg");
     background-size: cover;
     height: 400px;
 }
@@ -150,7 +160,7 @@ header {
     justify-content: space-evenly;
 
     .list-container {
-        margin-top: 100px;
+        margin-top: 50px;
         width: 50%;
         display: flex;
         justify-content: space-evenly;
@@ -159,16 +169,17 @@ header {
             width: calc(100% / 3 - 10px);
 
             h4 {
-                color: white;
+                color: #0282F9;
                 text-transform: uppercase;
+                margin-bottom: 5px;
             }
 
             .list {
 
                 li{
                     list-style-type: none;
-                    color: rgb(0, 24, 163);
-                    margin-bottom: 5px;
+                    color: white;
+                    margin-bottom: 10px;
                 }
             }
         }
@@ -191,7 +202,7 @@ header {
 }
 
 .social {
-    background-color: rgb(90, 89, 89);
+    background-color: #303030;
     height: 100px;
 
     .elements {
@@ -208,7 +219,7 @@ header {
             .sign-up {
                 color: white;
                 background-color: transparent;
-                border: 2px solid blue;
+                border: 2px solid #0282F9;
                 text-transform: uppercase;
                 padding: 20px;
                 font-size: 15px;
@@ -218,7 +229,7 @@ header {
         .icons {
 
             span {
-                color: rgb(25, 186, 240);
+                color: #0282F9;
                 margin-right: 10px;
                 font-size: 25px;
                 

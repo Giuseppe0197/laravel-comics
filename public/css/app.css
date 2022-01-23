@@ -7,8 +7,9 @@
 /* css per header */
 
 header {
-  height: 500px;
-  background-image: url("https://images4.alphacoders.com/646/thumb-1920-646026.jpg");
+  height: 600px;
+  background-image: url("/img/jumbotron.jpg");
+  background-size: cover;
 }
 
 header .containerheader {
@@ -17,7 +18,7 @@ header .containerheader {
 }
 
 header .containerheader section {
-  height: 150px;
+  height: 120px;
   width: 80%;
   margin: auto;
 }
@@ -42,7 +43,7 @@ header .containerheader section ul li {
 }
 
 header .containerheader section ul li:hover {
-  color: blue;
+  color: #0282F9;
   cursor: pointer;
 }
 
@@ -69,7 +70,7 @@ header .containerheader section ul li:hover {
   position: relative;
   left: 100px;
   top: -10px;
-  background-color: blue;
+  background-color: #0282F9;
   color: white;
   padding: 10px 5px;
   border: none;
@@ -81,7 +82,7 @@ header .containerheader section ul li:hover {
 }
 
 .load {
-  background-color: blue;
+  background-color: #0282F9;
   color: white;
   padding: 10px 5px;
   border: none;
@@ -101,13 +102,18 @@ header .containerheader section ul li:hover {
   height: 70%;
 }
 
-.thumbsComics p {
+.thumbsComics p a {
   color: white;
+  text-decoration: none;
+}
+
+.thumbsComics p a:hover {
+  color: #0282F9;
 }
 
 .container-merchandise {
   width: 100%;
-  background-color: blue;
+  background-color: #0282F9;
 }
 
 .container-merchandise .merchandise {
@@ -122,22 +128,24 @@ header .containerheader section ul li:hover {
 .container-merchandise .merchandise .buy {
   margin-top: 50px;
   width: 20%;
+  line-height: 100px;
 }
 
 .container-merchandise .merchandise .buy img {
-  max-width: 40%;
+  max-width: 30%;
   vertical-align: middle;
 }
 
 .container-merchandise .merchandise .buy span {
   color: white;
   margin-left: 10px;
+  vertical-align: middle;
 }
 
 /* css per footer */
 
 .container-footer {
-  background-image: url("https://dk-flow-cdn.clio.me/c8b9f8a06cc55f028bbb9c98eaddc08cf84cbd24/8a830d8980bd210a81af2ff85d71eabba1ba0a48.jpg");
+  background-image: url("/img/footer-bg.jpg");
   background-size: cover;
   height: 400px;
 }
@@ -150,7 +158,7 @@ header .containerheader section ul li:hover {
 }
 
 .footer-links .list-container {
-  margin-top: 100px;
+  margin-top: 50px;
   width: 50%;
   display: flex;
   justify-content: space-evenly;
@@ -161,14 +169,15 @@ header .containerheader section ul li:hover {
 }
 
 .footer-links .list-container .dc-list h4 {
-  color: white;
+  color: #0282F9;
   text-transform: uppercase;
+  margin-bottom: 5px;
 }
 
 .footer-links .list-container .dc-list .list li {
   list-style-type: none;
-  color: #0018a3;
-  margin-bottom: 5px;
+  color: white;
+  margin-bottom: 10px;
 }
 
 .footer-links .imgcontainer {
@@ -185,7 +194,7 @@ header .containerheader section ul li:hover {
 }
 
 .social {
-  background-color: #5a5959;
+  background-color: #303030;
   height: 100px;
 }
 
@@ -204,14 +213,14 @@ header .containerheader section ul li:hover {
 .social .elements .sign .sign-up {
   color: white;
   background-color: transparent;
-  border: 2px solid blue;
+  border: 2px solid #0282F9;
   text-transform: uppercase;
   padding: 20px;
   font-size: 15px;
 }
 
 .social .elements .icons span {
-  color: #19baf0;
+  color: #0282F9;
   margin-right: 10px;
   font-size: 25px;
 }

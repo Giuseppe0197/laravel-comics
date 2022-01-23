@@ -3,7 +3,7 @@
     <div class="containerheader">
         
         <section>
-            <img src="https://comicvine.gamespot.com/a/uploads/original/0/40/5213245-dc_logo_blue_final.jpg" alt="">
+            <img src="img/dc-logo.png" alt="">
     
           <ul>
     
