@@ -3,7 +3,7 @@
     <div class="containerheader">
         
         <section>
-            <img src="img/dc-logo.png" alt="">
+            <img src="{{asset('storage/img/dc-logo.png')}}" alt="">
     
           <ul>
     

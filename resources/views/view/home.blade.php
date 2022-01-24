@@ -11,9 +11,10 @@
         @foreach ($arrComics as $comics)
 
         <div class="thumbsComics">
-    
-            <img src="{{$comics['image']}}">
-                <p><a href="">{{$comics['title']}}</a></p>
+
+            <a href="{{route('comic-page')}}"><img src="{{$comics['image']}}"></a>
+
+            <p><a href="{{route('comic-page')}}">{{$comics['title']}}</a></p>
             
     
         </div>

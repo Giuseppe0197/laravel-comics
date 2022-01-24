@@ -86,27 +86,27 @@ Route::get('/', function () {
     $arrMerch = [
 
         [
-            'image' => 'img/buy-comics-digital-comics.png',
+            'image' => 'storage/img/buy-comics-digital-comics.png',
             'title' => 'Digital comics'
         ],
 
         [
-            'image' => 'img/buy-comics-merchandise.png',
+            'image' => 'storage/img/buy-comics-merchandise.png',
             'title' => 'DC merchandise'
         ],
 
         [
-            'image' => 'img/buy-comics-shop-locator.png',
+            'image' => 'storage/img/buy-comics-shop-locator.png',
             'title' => 'Comic shop locator'
         ],
 
         [
-            'image' => 'img/buy-comics-subscriptions.png',
+            'image' => 'storage/img/buy-comics-subscriptions.png',
             'title' => 'Subscription'
         ],
 
         [
-            'image' => 'img/buy-dc-power-visa.svg',
+            'image' => 'storage/img/buy-dc-power-visa.svg',
             'title' => 'Dc power visa'
         ]
     ];
@@ -115,5 +115,39 @@ Route::get('/', function () {
 }) -> name('home');
 
 Route::get('comic-page', function () {
-    return view('view.comic-page');
+
+    $merchObjects = [
+        [
+            'image' => '',
+            'title' => ''
+        ],
+
+        [
+            'image' => 'storage/img/buy-comics-digital-comics.png',
+            'title' => 'Digital comics'
+        ],
+
+        [
+            'image' => 'storage/img/buy-comics-subscriptions.png',
+            'title' => 'Shop DC'
+        ],
+
+        [
+            'image' => 'storage/img/buy-comics-shop-locator.png',
+            'title' => 'Comic Shop Locator'
+        ],
+
+        [
+            'image' => 'storage/img/buy-comics-merchandise.png',
+            'title' => 'Digital comics'
+        ],
+
+        [
+            'image' => '',
+            'title' => ''
+        ]
+    ];
+
+
+    return view('view.comic-page', compact('merchObjects'));
 }) -> name('comic-page');

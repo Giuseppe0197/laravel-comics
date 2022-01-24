@@ -8,7 +8,7 @@
 
 header {
   height: 600px;
-  background-image: url("/img/jumbotron.jpg");
+  background-image: url("/storage/img/jumbotron.jpg");
   background-size: cover;
 }
 
@@ -145,7 +145,7 @@ header .containerheader section ul li:hover {
 /* css per footer */
 
 .container-footer {
-  background-image: url("/img/footer-bg.jpg");
+  background-image: url("/storage/img/footer-bg.jpg");
   background-size: cover;
   height: 400px;
 }
@@ -230,5 +230,263 @@ header .containerheader section ul li:hover {
   height: 30px;
   margin-right: 10px;
   vertical-align: middle;
+}
+
+/* css per pagina fumetto singolo */
+
+.blue {
+  background-color: #0282F9;
+  height: 100px;
+  position: relative;
+}
+
+.blue img {
+  height: 250px;
+  width: 200px;
+  position: absolute;
+  top: -200px;
+  left: 130px;
+}
+
+.info {
+  height: 500px;
+  background-color: white;
+}
+
+.info .container-info {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.info .container-info .comic-description {
+  margin-top: 50px;
+  width: 65%;
+}
+
+.info .container-info .comic-description h2 {
+  color: #003558;
+  text-transform: uppercase;
+}
+
+.info .container-info .comic-description .green {
+  display: flex;
+  margin-top: 30px;
+}
+
+.info .container-info .comic-description .green .green-one {
+  background-color: #55BA59;
+  height: 40px;
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.info .container-info .comic-description .green .green-one .price {
+  line-height: 30px;
+  margin-left: 15px;
+}
+
+.info .container-info .comic-description .green .green-one .price #us-price {
+  color: #A2F182;
+}
+
+.info .container-info .comic-description .green .green-one .price #price-num {
+  color: white;
+}
+
+.info .container-info .comic-description .green .green-one .availability {
+  line-height: 30px;
+  margin-right: 15px;
+}
+
+.info .container-info .comic-description .green .green-one .availability h4 {
+  color: white;
+  text-transform: uppercase;
+}
+
+.info .container-info .comic-description .green .green-two {
+  background-color: #55BA59;
+  height: 40px;
+  width: 30%;
+  border-left: 1px solid black;
+  line-height: 30px;
+}
+
+.info .container-info .comic-description .green .green-two h4 {
+  color: white;
+  text-transform: uppercase;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.info .container-info .comic-description p {
+  margin-top: 20px;
+  color: #758386;
+  line-height: 30px;
+}
+
+.info .container-info .advertisement {
+  margin-top: 50px;
+  width: 30%;
+  height: 300px;
+}
+
+.info .container-info .advertisement h4 {
+  color: #758386;
+  text-transform: uppercase;
+  float: right;
+}
+
+.info .container-info .advertisement .image-ad {
+  margin-top: 20px;
+  background-image: url("https://upload.wikimedia.org/wikipedia/it/a/a5/Morte_Superman.jpg");
+  background-size: cover;
+  height: 300px;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.info .container-info .advertisement .image-ad h2 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 35px;
+}
+
+.info .container-info .advertisement .image-ad .apply {
+  width: 60%;
+  text-align: left;
+  background-color: #FFE665;
+  padding: 10px 20px;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.description-comic {
+  background-color: #F6F6F6;
+  min-height: 300px;
+}
+
+.description-comic .container-description {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.description-comic .container-description .talent {
+  width: 60%;
+  margin-top: 50px;
+}
+
+.description-comic .container-description .talent h2 {
+  color: #003558;
+}
+
+.description-comic .container-description .talent .artby {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  border-top: 1px solid #E4E4E4;
+  border-bottom: 1px solid #E4E4E4;
+  padding: 10px 0;
+}
+
+.description-comic .container-description .talent .artby p {
+  color: #0282F9;
+  width: 80%;
+}
+
+.description-comic .container-description .talent .writtenby {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  border-bottom: 1px solid #E4E4E4;
+  padding: 10px 0;
+}
+
+.description-comic .container-description .talent .writtenby p {
+  color: #0282F9;
+  width: 80%;
+}
+
+.description-comic .container-description .specs {
+  width: 35%;
+  margin-top: 50px;
+}
+
+.description-comic .container-description .specs h2 {
+  color: #003558;
+}
+
+.description-comic .container-description .specs .series-action {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  border-top: 1px solid #E4E4E4;
+  border-bottom: 1px solid #E4E4E4;
+  padding: 10px 0;
+}
+
+.description-comic .container-description .specs .series-action p {
+  color: #003558;
+}
+
+.description-comic .container-description .specs .series-action #action-comics {
+  text-transform: uppercase;
+  color: #0282F9;
+}
+
+.description-comic .container-description .specs .us-price {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #E4E4E4;
+  padding: 10px 0;
+}
+
+.description-comic .container-description .specs .us-price p {
+  color: #003558;
+}
+
+.description-comic .container-description .specs .on-sale {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #E4E4E4;
+  padding: 10px 0;
+}
+
+.description-comic .container-description .specs .on-sale p {
+  color: #003558;
+}
+
+.description-comic .merch-page {
+  margin-top: 100px;
+  display: flex;
+}
+
+.description-comic .merch-page .merch-objects {
+  width: 16.6666666667%;
+  border: 1px solid #E4E4E4;
+  display: flex;
+  justify-content: space-between;
+  min-height: 50px;
+}
+
+.description-comic .merch-page .merch-objects .merch-span {
+  color: #7a7a7a;
+  text-transform: uppercase;
+  margin-left: 10px;
+  padding-top: 20px;
+}
+
+.description-comic .merch-page .merch-objects img {
+  width: 15%;
+  margin-right: 10px;
+  padding: 10px 0;
+  filter: invert(0.6);
 }
 
